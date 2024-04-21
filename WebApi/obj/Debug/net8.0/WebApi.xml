@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.ApiController.GetTodoItems">
+            <summary>
+            Получение всех сотрудников
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.GetEmployeeItem(System.Int64)">
+            <summary>
+            Получение сотрудника по идентификатору
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.GetEmployeesSalaryByCompany(System.String)">
+            <summary>
+            Получение зарплаты всех сотрудников одной компании 
+            </summary>
+            <param company = "company"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.PostTodoItem(WebApi.Models.EmployeeModel)">
+            <summary>
+            Добавляет нового сотрудника
+            </summary>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.PutTodoItem(System.Int64,WebApi.Models.EmployeeModel)">
+            <summary>
+            Изменение параметров сотрудника по идентификатору
+            </summary>
+            <param name="id"></param>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.ChangeAllItemsNames">
+            <summary>
+            Изменение имени всех сотрудников
+            </summary>
+            <param name="id"></param>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.DeleteTodoItem(System.Int64)">
+            <summary>
+            Удаляет сотрудника из компании по id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.ApiController.DeleteAllTodoItems">
+            <summary>
+            Удаляет всех сотрудников из БД
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
